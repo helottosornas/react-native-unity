@@ -13,7 +13,7 @@ UnityFramework* UnityFrameworkLoad()
     if (![ufw appController])
     {
         // unity is not initialized
-        [ufw setExecuteHeader: &_mh_execute_header];
+        // [ufw setExecuteHeader: &_mh_execute_header];
     }
 
     [ufw setDataBundleId: [bundle.bundleIdentifier cStringUsingEncoding:NSUTF8StringEncoding]];

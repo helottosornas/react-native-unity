@@ -16,7 +16,7 @@
 + (id<RNUnityFramework>)getInstance;
 - (id<RNUnityAppController>)appController;
 
-- (void)setExecuteHeader:(const typeof(_mh_execute_header)*)header;
+// - (void)setExecuteHeader:(const typeof(_mh_execute_header)*)header;
 - (void)setDataBundleId:(const char*)bundleId;
 
 - (void)registerFrameworkListener:(id<RNUnityFramework>)obj;
